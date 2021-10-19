@@ -24,9 +24,25 @@
  * for ex :- const importedStudents is a random variable name. 
  */
 
-const {students, ages} = require('./module2'); //requiring multiple value.
+// const {students, ages} = require('./module2'); //requiring multiple value.
 /**
  * we can't give any random name to varibles while exporting multiple values another module(module2.js).
  * for ex :- students and ages both consts are exporting with same name from module2.js 
  */
-console.log(students, ages); 
+// console.log(students, ages); 
+
+
+// File system
+
+/*
+const fs =  require('fs');
+// read a file using fs
+fs.readFile('./docs/intro.txt', (error, data)=>{
+    if(error){
+        console.log(error);
+    }else{
+        console.log(data.toString());
+    }
+});
+*/
+
